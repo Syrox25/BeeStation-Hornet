@@ -966,3 +966,12 @@
 				/obj/item/clothing/gloves/color/yellow = 1)
 
 	category = CAT_CLOTHING
+
+
+/datum/crafting_recipe/paper_cup
+	name= "Paper Cup"
+	result = /obj/item/reagent_containers/food/drinks/sillycup
+	time = 10
+	reqs = list(/obj/item/paper = 1)
+	category = CAT_MISC
+	tools = list(TOOL_WIRECUTTER)
